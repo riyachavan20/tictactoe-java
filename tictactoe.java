@@ -103,7 +103,7 @@ System.out.println("select another:");
             }
             if(i==j)
             {
-               if(a[i]==a[j])
+               if(a[i][j]==1)
                {
                    dleft+=1;
                }
@@ -189,7 +189,7 @@ System.out.println("*********************** tie ***********************");
             }
             if(i==j)
             {
-               if(a[i]==a[j])
+               if(a[i][j]==2)
                {
                    ddleft+=1;
                }
